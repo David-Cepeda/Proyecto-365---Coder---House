@@ -10,7 +10,6 @@ body{
      background-color: #13132B;
 }
 
-
 nav{
     background-color: #2D2D54;
     box-shadow:  3px 3px 10px rgb(26, 26, 26);
@@ -75,8 +74,6 @@ nav ul li{
     color: #fff;
     text-transform: uppercase;
 }
-
-
 
 .hola {
     width: 100%;
@@ -294,11 +291,6 @@ section .circle:hover{
     flex-wrap: wrap;
 }
 
-/* .card img{
-    width: 100%;
-    top: 1080px;
-    transform: rotateX(-360);
-} */
 .card .target{
     width: 300px;
     height: 450px;
@@ -311,6 +303,7 @@ section .circle:hover{
     transition: all 0.3s;
     background:rgb(104, 104, 104) ;
 }
+
 .card .target .circletwo{
     position: relative;
     cursor: pointer;
@@ -455,6 +448,7 @@ section .circle:hover{
     display: block;
     transition: all 0.5s;
 }
+
 .gallery__img:hover{
     transform: scale(1.1);
 }
@@ -806,7 +800,7 @@ ul{
 
 .row .modonoche i{
     align-items: center;
-    padding: 10px;
+    padding: 10px;  
     font-size: 25px;
     color: #22223F;
     cursor: pointer;
