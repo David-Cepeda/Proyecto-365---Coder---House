@@ -112,7 +112,7 @@ nav ul li{
     position: absolute;
     height: 330px;
     width: 330px;
-    background-image: url(/Img/header.jpg);
+    background-image: url(Img/header.jpg);
     background-position: no-repeat;
     background-size: cover;
 }
@@ -193,7 +193,7 @@ section .circle{
     background-color: #22223F;
     width: 400px;
     height: 400px;
-    background-image: url(/Img/MAP.UBICACION.png);
+    background-image: url(Img/MAP.UBICACION.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -514,7 +514,7 @@ section .circle:hover{
     padding: 0;
     height: 400px;
     width:600px;
-    background: url(/Img/SVG/undraw_active_options_re_8rj3.svg);
+    background: url(Img/SVG/undraw_active_options_re_8rj3.svg);
     background-position:center ;
     background-repeat: no-repeat;
     background-size: 400px;
