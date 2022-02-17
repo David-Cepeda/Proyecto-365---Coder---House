@@ -146,10 +146,10 @@ nav ul li{
 .container .borde button{
     color: #fff;
     font-weight: 500;
-    background-color: #6363C7;
+    /* background-color: #6363C7;  linea */
     border-radius: 25px 25px 25px 25px; 
-    margin: 350px 740px;
-    font-size: 30px;
+    margin: 330px 730px;
+    font-size: 12px;
     display: flex;
 }
 
