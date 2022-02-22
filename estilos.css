@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); 
 
 *{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
 }
 
 body{
+    overflow-x: hidden;
      background-color: #13132B;
 }
 
@@ -80,7 +81,6 @@ nav ul li{
     position:absolute;
     z-index:-1;
     top: 0px;
-
     transform: rotateX(180deg);
 }
 /* =============================================================CARD HOME============================================================= */
@@ -143,21 +143,35 @@ nav ul li{
     margin-top: 70px;
 }
 
-.container .borde button{
+/* .container .borde button{
     color: #fff;
     font-weight: 500;
-    /* background-color: #6363C7;  linea */
+             background-color: #6363C7;  linea 
     border-radius: 25px 25px 25px 25px; 
     margin: 330px 730px;
     font-size: 12px;
     display: flex;
+} */
+
+/* .container .borde button:hover{
+    cursor: pointer;
+}  */
+
+.container .borde .btn{
+    width: 140px;
+    height: 40px;
+    background-color: #6363C7;
+    border-radius:25px ;
+    border: 1px solid #bbb;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
 }
 
-.container .borde button:hover{
+.container .borde .btn:hover{
     cursor: pointer;
 }
-
-
 /* ========================================================PUNTOS DIRECCIONALES======================================================== */
 .carrousel{
     margin-top: 30px;
@@ -178,6 +192,16 @@ nav ul li{
 
 .carrousel .puntos:hover{
     background: #bbb;
+}
+
+section .block{
+    width: 200px;
+    height: 100px;
+}
+
+section .blcok img{
+    width: 100%;
+    height: auto;
 }
 /* ==============================================================RESERVAR============================================================== */
 section{
@@ -522,6 +546,7 @@ section .circle:hover{
 
 .box-texto{
     justify-content: flex-end;
+    font-weight: 500;
     height: 100px;
     padding: 20px;
     width: 30%;
@@ -538,6 +563,7 @@ section .circle:hover{
     color: #fff;
     font-size: 18px;
 }
+
 .box-content .btn{  
     align-items: flex-end;
     height: 40px;
@@ -550,6 +576,126 @@ section .circle:hover{
     font-weight: 600;
     cursor: pointer;
 }
+
+/* .hola__hola section {
+    z-index:-1;
+    transform: rotateX(360deg);
+} */
+
+.box{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    height: 80%;
+    /* background-color: #ccc; */
+}
+
+.lbox{
+    width: 60%;
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.lbox h1{
+    color: #494992;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.lbox p{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    width: 70%;
+    justify-content: flex-start;
+}
+
+.lbox .width{
+    display: flex;
+    width: 50%; /*cambio caja width*/
+    height: 200px;
+    /* background-color: #13132B; */
+}
+
+.lbox .width .block{
+    padding-top: 0;
+    padding-bottom: 5px;
+    margin: 20px;
+    width: 90%;
+    height: 80%;
+    /* background-color: #ccc; */
+}
+
+.block .number{
+    color: #fff;
+    padding-bottom: 0;
+    padding-top: 0;
+    font-size: 35px;
+}
+
+.lbox h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.lbox .partner{
+    width: 95%;
+    height: 150px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.211);
+}
+
+/* .box .lbox .partner .back{
+    width: 140px;
+    height: 70px;
+} */
+.box .lbox .partner .back{
+    max-height: 40px auto;
+    padding: 0 10px 0  10px;
+    width: 140px;
+    height: auto !important;
+    margin: auto !important;
+    margin-top: 27.5px !important;
+}
+
+.box .rbox {
+    /* width: 40%; */
+    /* background-color: #ccc; */
+    width: auto;
+    height: auto;
+}
+
+.box .rbox .circulo{
+    /* background-color: rgba(255, 255, 255, 0.1);
+    filter: blur(15px); */
+    background-color: #a9a9a96a;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.box .rbox .circulo img{
+    display: block;
+    padding-top: 80px;
+    margin: auto auto;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+}
+
+
+
 /*===========================================================SECCION CONTACTO FORM===========================================================*/
 
 section{
@@ -692,6 +838,24 @@ section{
     border-radius: 2px;
 }
 
+
+#accordionExample{
+    margin: auto auto;
+    width: 700px;
+    padding-bottom: 40px;
+}
+
+.accordion-item{
+    background-color: #ccc;
+}
+
+.accordion-body{
+    background-color: #bbb;
+}
+
+.accordion-button {
+    background-color: #bbb;
+}
 
 /* =====================================================footer============================================================ */
 .containertree{
