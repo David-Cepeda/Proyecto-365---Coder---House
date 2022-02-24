@@ -1,0 +1,29 @@
+// variables
+
+:root{
+    --colorsubtxt:#494992;
+    --tamanof: 20px;
+}
+
+.box-texto{
+        h1{
+            font-size: var(--tamanof);
+            font-weight: 500;
+            color: var(--colorsubtxt);
+        }
+}
+
+
+.lbox{
+    font-weight: 500;
+        h1{
+            color: var(--colorsubtxt);
+            font-size: var(--tamanof);
+        }
+}
+
+.rbox{
+    .circulo{
+        border: 1px solid #fff;
+    }
+}

@@ -8,7 +8,7 @@
 
 body{
     overflow-x: hidden;
-     background-color: #13132B;
+    background-color: #13132B;
 }
 
 nav{
@@ -553,7 +553,7 @@ section .circle:hover{
 }
 
 .box-texto h1{
-    color: #494992;
+    /* color: #494992; */
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 20px;
@@ -598,7 +598,7 @@ section .circle:hover{
 }
 
 .lbox h1{
-    color: #494992;
+    /* color: #494992; */
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 20px;
